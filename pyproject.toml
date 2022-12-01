@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "UAH_FALL2022_VIDEOS"
+description = "My package description"
+requires-python = ">=3.11"
+license = {text = "BSD 3-Clause License"}
+
+dependencies = [
+"requests",
+"wget",
+]
+dynamic = ["version"]
